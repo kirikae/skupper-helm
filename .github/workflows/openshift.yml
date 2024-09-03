@@ -122,7 +122,7 @@ jobs:
              --set common.ingress.domain=apps.azure-xnhcv-1.xnhcv-1.sandbox2512.opentlc.com
 
     - name: Download a Build Artifact
-      uses: actions/download-artifact@v2.1.1
+      uses: actions/download-artifact@v4.1.7
       with:
         name: linktoken
         path: /tmp
